@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('matrimonio.png');
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content {
+    color: white;
+}
+
+.date {
+    font-family: "Eczar", serif;
+    font-size: 32px;
+}
+
+.names {
+    font-family: 'Arima', sans-serif; /*, cursive*/
+    font-size: 80px; /* Adjusted size for responsiveness */
+    font-weight: 600;
+}
+
+.countdown {
+    font-family: "Eczar", serif;
+    margin-top: 32px;
+    color: white;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown span {
+    font-size: 48px; /* Adjusted size for responsiveness */
+}
+
+#countdown div {
+    margin: 0 10px;
+}
+
+.white-background {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: #54595F;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    font-family: "Raleway", serif;
+    font-size: 20px;
+    text-align: center;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Added maximum width for responsiveness */
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px; /* Added margin bottom for separation */
+}
+
+.box1 {
+    font-family: "Raleway", serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Added maximum width for responsiveness */
+    height: 150px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px; /* Added margin bottom for separation */
+}
+.form-container {
+    width: 100%;
+    text-align: center;
+    font-family: "Raleway", serif;
+    font-weight: 100;
+    color: white;
+    margin: 0 auto;
+    background-color: #747676; /* Color gris de fondo */
+    padding: 20px; /* Ajusta el espaciado interno según sea necesario */
+}
+
+    svg {
+            width: 40px; /* Cambia el ancho del SVG */
+            height: 40px; /* Cambia la altura del SVG */
+            fill: white; /* Cambia el color de relleno del SVG */
+        }
