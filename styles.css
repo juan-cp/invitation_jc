@@ -34,7 +34,7 @@ body {
 .countdown {
     font-family: "Eczar", serif;
     margin-top: 32px;
-    color: black !Important;
+    color: black !important;
 }
 
 #countdown {
