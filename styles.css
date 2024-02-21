@@ -40,8 +40,8 @@ body {
     justify-content: center;
 }
 
-#countdown span {
-    font-family: "Releway Dots", sans-serif !important; font-size: 48px; color: gray; /* Adjusted size for responsiveness */
+#countdown span { font-weight: normal !important;
+    font-family: "Raleway Dots", sans-serif !important; font-size: 48px; color: gray; /* Adjusted size for responsiveness */
 }
 
 #countdown div {
