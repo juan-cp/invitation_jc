@@ -19,6 +19,9 @@ body {
     font-family: "Bellota Text", sans-serif;
     font-size: 45px;
 }
+.hora {
+    font-weight: 600; font-family: 'Bellota Text', sans-serif; font-size: 45px !important; 
+}
 
 .names {
     font-family: 'Arima', sans-serif; /*, cursive*/
