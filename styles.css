@@ -20,9 +20,9 @@ body {
     font-size: 40px;
 }
 .hora {
-    font-weight: 600;
     font-family: 'Bellota Text', sans-serif; 
     font-size: 40px; 
+    font-weight: 600;
 }
 
 .names {
