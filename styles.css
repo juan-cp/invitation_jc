@@ -32,7 +32,6 @@ body {
 }
 
 .countdown {
-    font-family: "Codystar", sans-serif;
     margin-top: 32px;
 }
 
@@ -42,12 +41,12 @@ body {
 }
 
 #countdown span {
-    font-size: 48px; color: gray; /* Adjusted size for responsiveness */
+    font-family: "Codystar", sans-serif !important; font-size: 48px; color: gray; /* Adjusted size for responsiveness */
 }
 
 #countdown div {
     margin: 0 10px;
-    font-family: "Bellota Text", sans-serif !important; font-size: 20px !important; color: black !important; font-weight: 600 !important;
+    font-family: "Bellota Text", sans-serif; font-size: 20px; color: black; font-weight: 700;
 }
 .subtitulo {
     font-family: "Bellota Text", sans-serif !important; font-size: 20px !important; color: black !important; font-weight: 600 !important;
