@@ -47,6 +47,7 @@ body {
 
 #countdown div {
     margin: 0 10px;
+    font-family: "Bellota Text", sans-serif !important; font-size: 20px !important; color: black !important; font-weight: 600 !important;
 }
 .subtitulo {
     font-family: "Bellota Text", sans-serif !important; font-size: 20px !important; color: black !important; font-weight: 600 !important;
