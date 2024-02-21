@@ -26,15 +26,14 @@ body {
 }
 
 .names {
-    font-family: 'Arima', sans-serif; /*, cursive*/
+    font-family: 'Aref Ruqaa Ink', serif; /*, cursive*/
     font-size: 80px; /* Adjusted size for responsiveness */
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .countdown {
     font-family: "Eczar", serif;
     margin-top: 32px;
-    color: black !important;
 }
 
 #countdown {
@@ -43,7 +42,7 @@ body {
 }
 
 #countdown span {
-    font-size: 48px; /* Adjusted size for responsiveness */
+    font-size: 48px; color: black; /* Adjusted size for responsiveness */
 }
 
 #countdown div {
