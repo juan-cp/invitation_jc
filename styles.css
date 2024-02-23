@@ -18,11 +18,13 @@ body {
 .date {
     font-family: "Bellota Text", sans-serif;
     font-size: 40px;
+    color: black;
 }
 .hora {
     font-family: 'Bellota Text', sans-serif; 
     font-size: 40px; 
     font-weight: bold;
+    color: black;
 }
 
 .names {
