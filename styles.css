@@ -33,6 +33,28 @@ body {
     font-weight: 400;
 }
 
+.correa-fotos {
+    overflow: hidden;
+    width: 100%;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    anuimation: desplazamiento 10s linear infinite;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
 .countdown {
     margin-top: 32px;
 }
