@@ -46,9 +46,19 @@ ol {
     anuimation: desplazamiento 10s linear infinite;
 }
 
+li {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
 img {
     width: 100%;
     height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: opacity 0.5s ease-in-out;
 }
 
 img:hover {
