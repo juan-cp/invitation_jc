@@ -43,7 +43,7 @@ ol {
     padding: 0;
     margin: 0;
     display: flex;
-    anuimation: desplazamiento 10s linear infinite;
+    animation: desplazamiento 10s linear infinite;
 }
 
 li {
