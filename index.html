@@ -38,17 +38,19 @@
 
 </head>
 <body>
+    <div class="parallax-container">
+    <img class="parallax-image" src="https://www.fixdate.io/modelo-invitacion/29/img/portada-3.webp" alt="Parallax Image">
     <div class="background">
         <div class="content">
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <div class="names">Juan &amp; Caro</div>
+            <div class="names">Juan & Caro</div>
             <br><br><br><br>
-            <div style= "font-family: 'Proza libre', sans-serif; font-size: 60px !important; color: yellow;">"</div>
+             <div style= "font-family: 'Proza libre', sans-serif; font-size: 60px !important; color: yellow;">"</div>
             <br>
-            <div style= "font-family: 'Montserrat', sans-serif; font-size: 30px;">Ninguna medida de tiempo contigo será suficiente, pero empecemos con un para siempre</div>
+            <div class="quote">Ninguna medida de tiempo contigo será suficiente, pero empecemos con un para siempre</div>
             <br>
             <div style= "font-family: 'Proza libre', sans-serif; font-size: 60px !important; color: yellow;">"</div>
         </div>
+      </div>
     </div> 
     <div class="white-background">
         <br><br>
@@ -57,8 +59,8 @@
         <div class="inner-div">Y queremos que seas que seas parte de este momento tan especial para nosotros</div>
         <br>
         <div style="font-family: 'Raleway', sans-serif; font-weight: 100; color:#A29A81; font-size: 50px;">        
-            <h2>Juan Carrasco Pastrián</h2>      
-            &amp;
+            <h2>Juan Carrasco Pastrián</h2>  
+            <h2> & </h2>
             <h2>Carolina Herrera Saldaña</h2>
         </div>
 <br><br>
@@ -136,16 +138,29 @@
             </div> 
             <br><br><br><br>
     <div class="background2">
-        <div style= "font-family: 'Bellota Text', sans-serif; font-size: 35px; color: black;">08 | JUNIO | 2024</div>
-        <br>
-        <div style="font-family: 'Bellota Text', sans-serif; font-size: 35px; font-weight: bold; color: black;"> 17:00 HORAS </div>
-        <br>
-        <div class="container">
+       <div class="container">
          <div class="box1">
+          <div style="font-family: 'Bellota Text', sans-serif; font-size: 30px; font-weight: bold; color: white;">08 . JUNIO . 2024 | 17:00 HORAS </div>
+          <br>
+          <button onclick="agregarEventos()" class="caja-buttons">Agendar</button>
+
+<div id="calendarButtons">
+  <!-- Botón para Google Calendar -->
+  <a id="googleButton" target="_blank"><button class="caja-buttons1">Google Calendar</button></a>
+
+  <!-- Botón para Apple Calendar -->
+  <a id="appleButton" download="evento.ics"><button class="caja-buttons1">Apple Calendar</button></a>
+
+  <!-- Botón para Outlook/Office -->
+  <a id="outlookButton" target="_blank"><button class="caja-buttons1">Outlook/Office</button></a>
+
+  <!-- Botón para Yahoo Calendar -->
+  <a id="yahooButton" target="_blank"><button class="caja-buttons1">Yahoo Calendar</button></a>
+</div>            
+<br>
             <h2>¿Dónde será?</h2>
             <p>CENTRO DE EVENTOS SLIER <br> Cam. Loreto 418, Talagante</p>
-            <p>Como llegar</p>
-            <p>Confirmar asistencia</p>
+            <a href="https://maps.app.goo.gl/yRxdhkM2Kn21dkYSA" class="caja-enlace">Ver ubicación</a>.</p>
          </div>   
         </div>
     </div>
@@ -180,6 +195,26 @@
         },
         loop: true,
     });
+</script>
+<script>
+  function agregarEventos() {
+    var googleURL = "https://www.google.com/calendar/render?action=TEMPLATE&text=Título+del+Evento&dates=20240229T000000Z/20240229T010000Z&details=Descripción+del+Evento&location=Lugar+del+Evento&sf=true&output=xml";
+    var appleURL = "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AUID:event1%40example.com%0ADTSTAMP:20240229T000000Z%0ADTSTART:20240229T000000Z%0ADTEND:20240229T010000Z%0ASUMMARY:Título+del+Evento%0ADESCRIPTION:Descripción+del+Evento%0ALOCATION:Lugar+del+Evento%0AEND:VEVENT%0AEND:VCALENDAR";
+    var outlookURL = "https://outlook.live.com/owa/?path=/calendar/action/compose&subject=Título+del+Evento&startdt=20240229T000000Z&enddt=20240229T010000Z&location=Lugar+del+Evento&body=Descripción+del+Evento";
+    var yahooURL = "https://calendar.yahoo.com/?v=60&view=d&type=20&title=Título+del+Evento&st=20240229T000000Z&dur=0100&desc=Descripción+del+Evento&in_loc=Lugar+del+Evento";
+
+    document.getElementById("googleButton").href = googleURL;
+    document.getElementById("appleButton").href = appleURL;
+    document.getElementById("outlookButton").href = outlookURL;
+    document.getElementById("yahooButton").href = yahooURL;
+
+    var calendarButtons = document.getElementById("calendarButtons");
+    calendarButtons.style.display = "block";
+    // Ocultar los botones después de 5 segundos (5000 milisegundos)
+    setTimeout(function() {
+      calendarButtons.style.display = "none";
+    }, 15000);
+  }
 </script>
 </body>
 </html>

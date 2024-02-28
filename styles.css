@@ -57,9 +57,26 @@ body {
 .background2 {
     background-image: url('anillos borroso.png');
     background-size: cover;
+    background-position: center top; /* Establece la posición de la imagen en el centro superior */
     text-align: center;
-    padding: 30px 0;
+    padding: 100px 0;
 }
+
+.parallax-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+.parallax-image {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transform: translate3d(0, 0, 0);
+        }
 
 .background {
     background-image: url('blanco y negro.png');
@@ -67,11 +84,23 @@ body {
     text-align: center;
     padding: 30px 0;
     position: relative;
+    height: 120vh;
+    overflow: hidden;
 }
 
 .content {
-    color: white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: white; /* Adjust text color */
+    padding: 100px 0; /* Adjust padding as needed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+.content h1 {
+            font-size: 3em;
+        }
 
 .date {
     font-family: "Bellota Text", sans-serif;
@@ -90,6 +119,11 @@ body {
     font-size: 80px; /* Adjusted size for responsiveness */
     font-weight: 400;
 }
+
+ .quote {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em; /* Adjust font size */
+        }
 
 .correa-fotos {
     overflow: hidden;
@@ -248,13 +282,13 @@ img:hover {
     font-weight: 100;
     font-size: 20px;
     text-align: center;
-    width: 80%; /* Adjusted width for responsiveness */
-    max-width: 400px; /* Added maximum width for responsiveness */
-    height: 150px;
-    background-color: black;
+    width: 150%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Added maximum width for responsiveness */
+    height: 500px;
+    background-color: rgba(80, 40, 10, 0.3); /* Relleno blanco con opacidad 0.7 */;
     color: white;
     border: 2px  black;
-    border-radius: 15px;
+    border-radius: 0px;
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 20px; /* Added margin bottom for separation */
@@ -269,6 +303,42 @@ img:hover {
     background-color: #747676; /* Color gris de fondo */
     padding: 20px; /* Ajusta el espaciado interno según sea necesario */
 }
+
+.caja-enlace {
+    display: inline-block; /* Para que ocupe solo el ancho necesario */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+    background-color: rgba(80, 40, 10, 0.0); /* Color de fondo de la caja */
+    color: white; /* Color del texto dentro de la caja */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    border-radius: 0px; /* Bordes redondeados para la caja */
+    border: 2px solid white; /* Color del borde de la caja */
+}
+
+.caja-buttons {
+    font-size: 20px;
+    display: inline-block; /* Para que ocupe solo el ancho necesario */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+    background-color: rgba(80, 40, 10, 0.0); /* Color de fondo de la caja */
+    color: white; /* Color del texto dentro de la caja */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    border-radius: 0px; /* Bordes redondeados para la caja */
+    border: 2px solid white; /* Color del borde de la caja */
+}
+.caja-buttons1 {
+    font-size: 15px;
+    display: inline-block; /* Para que ocupe solo el ancho necesario */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo de la caja */
+    color: white; /* Color del texto dentro de la caja */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    border-radius: 0px; /* Bordes redondeados para la caja */
+    border: black; /* Color del borde de la caja */
+}
+
+#calendarButtons {
+      display: none;
+      margin-top: 20px;
+    }
 
     svg {
             width: 40px; /* Cambia el ancho del SVG */
