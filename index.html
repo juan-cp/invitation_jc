@@ -181,20 +181,23 @@
         </form>
     </div>
     <script src="countdown.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 6,
-        spaceBetween: 0,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        autoplay: {
-            delay: 5000,
-        },
-        loop: true,
-    });
+    window.onload = function() {
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 6,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            loop: true,
+        });
+    }
 </script>
 <script>
   function agregarEventos() {
