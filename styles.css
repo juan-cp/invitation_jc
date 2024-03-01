@@ -356,6 +356,42 @@ img:hover {
             fill: white; /* Cambia el color de relleno del SVG */
         }
 
+#miCajaEmergente {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    /* Estilos para oscurecer el fondo cuando la caja emergente está activa */
+    #fondoModal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+
+    /* Estilos para el botón que muestra la caja emergente */
+    #mostrarBtn {
+      cursor: pointer;
+      padding: 10px 15px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
 .divider {
     position: relative;
     top: 0;

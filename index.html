@@ -177,6 +177,34 @@
 <div style= "font-family: 'Alex Brush', sans-serif; font-size: 70px; color: #8B4513;">Regalos</div>
         <br>
         <div class="inner-div">¿Nuestro mejor regalo? Nuestra Luna de Miel... Si desean regalarnos algo más que tu presencia pueden colaborar la cuenta</div>
+        <!-- Botón para mostrar la caja emergente -->
+  <button id="mostrarBtn" onclick="document.getElementById('miCajaEmergente').style.display='block'; document.getElementById('fondoModal').style.display='block'">
+    Transferir
+  </button>
+
+  <!-- Caja Emergente -->
+  <div id="miCajaEmergente">
+    <h2>Numero de cuenta</h2>
+    <p> url('QRcuentaBank.png')
+        <br>
+        Juan Carrasco
+        <br>
+16.860.795-4
+<br>
+Bci / Banco Crédito e Inversiones
+<br>
+Cuenta Corriente
+<br>
+777916860795
+<br>
+juanoale@gmail.com</p>
+    <button onclick="document.getElementById('miCajaEmergente').style.display='none'; document.getElementById('fondoModal').style.display='none'">
+      Cerrar
+    </button>
+  </div>
+
+  <!-- Fondo Modal -->
+  <div id="fondoModal"></div>
     <br><br>
     <div class="form-container">
         <form action="#">
