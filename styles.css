@@ -115,14 +115,14 @@ body {
 }
 
 .names {
-    font-family: 'Aref Ruqaa Ink', serif; /*, cursive*/
-    font-size: 80px; /* Adjusted size for responsiveness */
-    font-weight: 400;
+    font-family: 'Alex Brush'; /*, cursive*/
+    font-size: 110px; /* Adjusted size for responsiveness */
+    font-weight: normal;
 }
 
  .quote {
             font-family: 'Montserrat', sans-serif;
-            font-size: 1.5em; /* Adjust font size */
+            font-size: 20px; /* Adjust font size */
         }
 
 .correa-fotos {
@@ -334,6 +334,16 @@ img:hover {
     border-radius: 0px; /* Bordes redondeados para la caja */
     border: black; /* Color del borde de la caja */
 }
+.boton-confirmar-Asistencia {
+    font-size: 20px;
+    display: inline-block; /* Para que ocupe solo el ancho necesario */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+    background-color: rgba(80, 40, 10, 0.0); /* Color de fondo de la caja */
+    color: white; /* Color del texto dentro de la caja */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    border-radius: 0px; /* Bordes redondeados para la caja */
+    border: 2px solid white; /* Color del borde de la caja */
+}
 
 #calendarButtons {
       display: none;
@@ -345,3 +355,22 @@ img:hover {
             height: 40px; /* Cambia la altura del SVG */
             fill: white; /* Cambia el color de relleno del SVG */
         }
+
+.divider {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 130px;
+    background-image: url('divider.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+
+  .div-transparent {
+    /* Aquí puedes agregar estilos específicos para la clase .div-transparent si es necesario */
+  }
