@@ -60,6 +60,7 @@ body {
     background-position: center top; /* Establece la posición de la imagen en el centro superior */
     text-align: center;
     padding: 100px 0;
+    height: 120vh;
 }
 
 .parallax-container {
@@ -284,7 +285,7 @@ img:hover {
     text-align: center;
     width: 150%; /* Adjusted width for responsiveness */
     max-width: 600px; /* Added maximum width for responsiveness */
-    height: 500px;
+    height: 600px;
     background-color: rgba(80, 40, 10, 0.3); /* Relleno blanco con opacidad 0.7 */;
     color: white;
     border: 2px  black;
