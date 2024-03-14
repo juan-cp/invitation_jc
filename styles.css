@@ -57,9 +57,10 @@ body {
 .background2 {
     background-image: url('anillos borroso.png');
     background-size: cover;
-    background-position: center top; /* Establece la posición de la imagen en el centro superior */
+    background-position: center; /* Establece la posición de la imagen en el centro superior */
     text-align: center;
-    padding: 100px 0;
+    padding: 30px 0;
+    position: relative;
     height: 120vh;
 }
 
