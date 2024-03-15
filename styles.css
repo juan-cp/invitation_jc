@@ -287,7 +287,6 @@ img:hover {
     font-size: 20px;
     text-align: center;
     width: 200%; /* Adjusted width for responsiveness */
-    max-width: 600px; /* Added maximum width for responsiveness */
     height: 600px;
     background-color: rgba(80, 40, 10, 0.3); /* Relleno blanco con opacidad 0.7 */;
     color: white;
