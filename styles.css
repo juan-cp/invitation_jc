@@ -61,6 +61,9 @@ body {
     padding: 30px 0;
     position: relative;
     height: 120vh;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 
 .parallax-container {
@@ -290,7 +293,6 @@ img:hover {
     color: white;
     border: 2px  black;
     border-radius: 0px;
-    margin: 0 auto;
     padding: 20px;
     margin-bottom: 20px; /* Added margin bottom for separation */
 }
@@ -394,6 +396,7 @@ img:hover {
     }
 .columnas {
     display: flex; /* Utilizamos flexbox para distribuir los elementos */
+    height: 50px;
   }
   .columna {
     flex: 1; /* Las columnas ocuparán el mismo espacio */
