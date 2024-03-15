@@ -57,7 +57,6 @@ body {
 .background2 {
     background-image: url('anillos borroso.png');
     background-size: cover;
-    background-position: center; /* Establece la posición de la imagen en el centro superior */
     text-align: center;
     padding: 30px 0;
     position: relative;
@@ -393,6 +392,13 @@ img:hover {
       border: none;
       border-radius: 5px;
     }
+.columnas {
+    display: flex; /* Utilizamos flexbox para distribuir los elementos */
+  }
+  .columna {
+    flex: 1; /* Las columnas ocuparán el mismo espacio */
+    padding: 10px; /* Añadimos un poco de espacio entre el borde y el contenido */
+  }
 
 .divider {
     position: relative;
