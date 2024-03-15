@@ -258,6 +258,7 @@ img:hover {
 .white-background .inner-div {
     font-size: 25px;
     color: gray;
+    text-align: center;
 }
 
 .container {
