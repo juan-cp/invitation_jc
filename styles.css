@@ -399,10 +399,7 @@ img:hover {
  }
   .columna {
     flex: 1; /* Las columnas ocuparán el mismo espacio */
-    padding: 10px; /* Añadimos un poco de espacio entre el borde y el contenido */
-    style= "font-family: 'Montserrat', sans-serif; 
-    font-size: 45px; 
-    color: #8B4513; 
+    padding: 10px; /* Añadimos un poco de espacio entre el borde y el contenido */ 
     font-weight: normal;
   }
 
