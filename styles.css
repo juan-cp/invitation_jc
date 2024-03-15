@@ -397,12 +397,14 @@ img:hover {
 .columnas {
     display: flex; /* Utilizamos flexbox para distribuir los elementos */
     justify-content: center;
+    text-align: center;
 
  }
   .columna {
     flex: 1; /* Las columnas ocuparán el mismo espacio */
     padding: 10px; /* Añadimos un poco de espacio entre el borde y el contenido */ 
     font-weight: normal;
+    justify-content: center;
   }
 
 .divider {
