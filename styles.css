@@ -396,6 +396,8 @@ img:hover {
     }
 .columnas {
     display: flex; /* Utilizamos flexbox para distribuir los elementos */
+    justify-content: center;
+
  }
   .columna {
     flex: 1; /* Las columnas ocuparán el mismo espacio */
